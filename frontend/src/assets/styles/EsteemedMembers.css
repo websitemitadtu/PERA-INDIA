@@ -1,0 +1,65 @@
+.members-section {
+  background-color: #F2F6F9;
+  padding: 2rem 1rem;
+  overflow: hidden;
+}
+
+.members-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+   color: #265690;
+}
+
+.marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 2rem;
+  animation: scroll 30s linear infinite;
+}
+
+.univ-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  min-width: 160px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.univ-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .univ-card {
+    min-width: 120px;
+    height: 100px;
+    padding: 0.5rem;
+  }
+
+  .members-title {
+    font-size: 1.5rem;
+  }
+}

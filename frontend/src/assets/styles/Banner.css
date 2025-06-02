@@ -1,0 +1,20 @@
+.banner-container {
+  width: 100%;
+  height: 100%;       /* default height */
+  overflow: hidden;
+  position: relative;
+}
+
+.banner {
+  width: 100%;
+  height: 300px; /* or use vh like 50vh for relative sizing */
+  overflow: hidden;
+}/* Make image fill the container and crop nicely */
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
