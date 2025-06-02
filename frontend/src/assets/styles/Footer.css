@@ -1,0 +1,167 @@
+.footer {
+  background-color: #1F2652;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-card {
+  background-color: #333B62;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.footer-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.go-top-btn {
+  background-color: #FFD700;
+  color: #1F2652;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.go-top-btn:hover {
+  background-color: #e6c200;
+}
+
+.visitor-count {
+  background-color: #FFD700;
+  color: #1F2652;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-section h3 {
+  border-bottom: 1px solid #555;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 0;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #FFD700;
+}
+
+.academic-columns {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.academic-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.academic-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.arrow {
+  margin-right: 6px;
+  color: #FFD700;
+  flex-shrink: 0;
+}
+
+.footer-follow {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-follow h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.footer-follow a {
+  display: inline-flex;
+  align-items: center;
+  color: #ccc;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-follow a:hover {
+  color: #FFD700;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.bottom-links a {
+  color: #ccc;
+  margin: 0 10px;
+  font-size: 14px;
+  text-decoration: none;
+  padding-top: 20px;
+  
+}
+
+.bottom-links a:hover {
+  color: #FFD700;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .academic-columns {
+    flex-direction: column;
+  }
+
+  .academic-column {
+    min-width: 100%;
+  }
+
+  .footer-top-row {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
+.copyright{
+  border-top: 1px solid #444;
+  margin-top: 30px;
+}
