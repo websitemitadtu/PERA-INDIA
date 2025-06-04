@@ -1,0 +1,55 @@
+.pera-result-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.pera-result-banner {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.result-date {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.pera-section {
+  margin-bottom: 30px;
+  background-color: #f7f9fb;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #003366;
+}
+
+.pera-section h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.pera-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.pera-section li {
+  margin-bottom: 10px;
+}
+
+.pera-section a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.pera-section a:hover {
+  text-decoration: underline;
+}
