@@ -44,3 +44,56 @@ h2 {
 .schedule-table tr:hover {
   background-color: #f1f1f1;
 }
+
+.guidelines-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: color 0.3s;
+}
+
+.guidelines-heading:hover {
+  color: #0056b3;
+}
+
+.guidelines-content {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 4px solid #007bff;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.guidelines-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 25px;
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.guidelines-heading:hover {
+  color: #0056b3;
+}
+
+.guidelines-content {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 4px solid #007bff;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
