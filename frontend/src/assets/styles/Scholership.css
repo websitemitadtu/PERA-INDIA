@@ -1,0 +1,127 @@
+/* Container for the scholarship listing */
+.scholarship-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Grid layout for all scholarship cards */
+.scholarship-cards {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Individual card styling */
+.scholarship-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.scholarship-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Date style */
+.scholarship-date {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Read more link */
+.read-more-btn {
+  display: inline-block;
+  margin-top: 12px;
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more-btn:hover {
+  text-decoration: underline;
+}
+
+/* Detail page layout */
+.scholarship-detail {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+/* Navigation between posts */
+.navigation-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* Comment form section */
+.comment-section {
+  margin-top: 50px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.comment-section h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.comment-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.comment-section textarea {
+  min-height: 120px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.comment-section input[type="text"],
+.comment-section input[type="email"],
+.comment-section input[type="url"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.comment-section label {
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #333;
+}
+
+.comment-section button {
+  width: 140px;
+  padding: 10px;
+  background-color: #ffc107;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comment-section button:hover {
+  background-color: #e0a800;
+}
