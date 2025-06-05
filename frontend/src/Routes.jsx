@@ -33,11 +33,17 @@ import MashelkarScholarshipDetail from './pages/MashelkarScholarshipDetail';
 import BhatkarScholarshipDetail from './pages/BhatkarScholarshipDetail';
 import PeraIgniteScholarshipDetail from './pages/PeraIgniteScholarshipDetail';
 import SwamiVivekanandAward from './pages/SwamiVivekanandAward';
-
 import SavitribaiPhuleAward from './pages/SavitribaiPhuleAward';
 import JrResearcherAward from './pages/JrResearcherAward';
+import SrResearcherAward from './pages/JrResearcherAward.jsx';
 
-import SrResearcherAward from './pages/SrResearcherAward';
+
+import SirVishweshwaraiahAward from './pages/SirVishweshwaraiahAward';
+import Jr_ResearcherAward from './pages/Jr_ResearcherAward';
+import SwamiVivekanandAwardReasercher from './pages/SwamiVivekanandAward';
+import Savitribai_PhuleAward from './pages/Savitribai_PhuleAward.jsx';
+
+
 
 
 
@@ -82,6 +88,14 @@ const AppRoutes = () => {
       <Route path="/awards/savitribai-phule-teacher-award" element={<SavitribaiPhuleAward />} />
       <Route path="/awards/jr-researcher-award" element={<JrResearcherAward />} />
       <Route path="/awards/sr-researcher-award" element={<SrResearcherAward />} />
+
+
+      <Route path="/awards/sr-researcher-awards" element={<SirVishweshwaraiahAward />} />
+      <Route path="/awards/jr-researcher-awards" element={<Jr_ResearcherAward />} />
+      <Route path="/awards/swami-vivekanand-researcher-awards" element={<SwamiVivekanandAwardReasercher />} />
+      <Route path="/awards/savitribai-phule-researcher-awards" element={<Savitribai_PhuleAward />} />
+      <Route path="/awards" element={<ResearcherAwards />} />
+
 
 
 

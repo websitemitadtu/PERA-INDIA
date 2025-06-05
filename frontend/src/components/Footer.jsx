@@ -74,7 +74,7 @@ const Footer = () => {
 
         <div className="footer-content">
           <div className="footer-section">
-            <h3>{footerLinks[0].category}</h3>
+            <h3 style={{color: "#ffffff"}}>{footerLinks[0].category}</h3>
             <ul>
               {footerLinks[0].links.map((link, i) => (
                 <li key={i}><span className="arrow">→</span><Link to={link.to} className="footer-link">{link.name}</Link></li>
@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <h3>{footerLinks[1].category}</h3>
+            <h3 style={{color: "#ffffff"}}>{footerLinks[1].category}</h3>
             <div className="academic-columns">
               <ul>
                 {footerLinks[1].links.slice(0, mid).map((link, i) => (
@@ -103,7 +103,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="footer-follow">
-          <h3>Follow Us</h3>
+          <h3 style={{color: "#ffffff"}}>Follow Us</h3>
           <a style={{fontSize:"25px"}} href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
