@@ -1,0 +1,91 @@
+/* Container for the awards listing */
+.scholarship-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f8fc;
+  border-radius: 12px;
+}
+
+/* Title styling */
+.scholarship-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+/* Eligibility text */
+.eligibility-note {
+  font-size: 1rem;
+  text-align: center;
+  color: #444;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Cards container using grid */
+.scholarship-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 24px;
+}
+
+/* Individual award card */
+.scholarship-card {
+  background: #ffffff;
+  border: 1px solid #d1dce5;
+  border-left: 6px solid #003366;
+  padding: 20px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  position: relative;
+}
+
+.scholarship-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Date badge */
+.scholarship-date {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #003366;
+  background-color: #eaf3ff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+/* Title */
+.scholarship-card h3 {
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* Excerpt text */
+.scholarship-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Read more button */
+.read-more-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 14px;
+  background-color: #003366;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #002244;
+}
