@@ -81,6 +81,7 @@ const Navbar = () => {
           <button onClick={() => toggleDropdown('awards')}>PERA Scholarships/Award ▼</button>
           {dropdownOpen === 'awards' && (
             <ul className="dropdown-menu">
+              <li><Link to="/scholarship-awards-2022">PERA Scholarships & Awards 2022</Link></li>
               <li><Link to="/scholarships">PERA Scholarships</Link></li>
               <li><Link to="/teacher-awards">PERA Teacher Awards</Link></li>
               <li><Link to="/researcher-awards">PERA Researcher Awards</Link></li>
@@ -88,18 +89,22 @@ const Navbar = () => {
           )}
         </li>
 
-        <li className="nav-item">
-          <Link to="/contact">Contact Us</Link>
-        </li>
+
 
         <li className="nav-item dropdown">
           <button onClick={() => toggleDropdown('championships')}>PERA Championships ▼</button>
           {dropdownOpen === 'championships' && (
             <ul className="dropdown-menu">
+              <li><Link to="/pera-premier-championship">PERA Premier Championship</Link></li> {/* ✅ NEW */}
               <li><Link to="/event-schedule">Event Schedule & Coordinators</Link></li>
               <li><Link to="/rules">Rules & Regulations</Link></li>
             </ul>
           )}
+        </li>
+
+
+        <li className="nav-item">
+          <Link to="/contact">Contact Us</Link>
         </li>
       </ul>
     </nav>

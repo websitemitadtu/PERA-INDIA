@@ -1,0 +1,55 @@
+.rules-page {
+  padding: 20px 390px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7fa;
+}
+
+.rules-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.rule-section {
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 20px;
+  border-left: 5px solid #007bff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.rule-section h2 {
+  margin-bottom: 12px;
+  color: #007bff;
+}
+
+.rule-section ul {
+  padding-left: 20px;
+}
+
+.rule-section li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.register-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.register-button {
+  background-color: #FFA928;
+  color: #fff;
+  padding: 12px 28px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.register-button:hover {
+  background-color: #e6911d;
+}
