@@ -1,0 +1,47 @@
+.scholarship-awards-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.scholarship-awards-page h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #222;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #1e1e1e;
+}
+
+.section-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.section h3 {
+  margin-top: 25px;
+  font-size: 1.4rem;
+  color: #444;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}

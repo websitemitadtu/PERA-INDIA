@@ -43,8 +43,9 @@ import Jr_ResearcherAward from './pages/Jr_ResearcherAward';
 import SwamiVivekanandAwardReasercher from './pages/SwamiVivekanandAward';
 import Savitribai_PhuleAward from './pages/Savitribai_PhuleAward.jsx';
 
+import ScholarshipAndAwards from './pages/ScholarshipAndAwards';
 
-
+import PeraChampionship from './pages/PeraChampionship';
 
 
 const AppRoutes = () => {
@@ -95,6 +96,8 @@ const AppRoutes = () => {
       <Route path="/awards/swami-vivekanand-researcher-awards" element={<SwamiVivekanandAwardReasercher />} />
       <Route path="/awards/savitribai-phule-researcher-awards" element={<Savitribai_PhuleAward />} />
       <Route path="/awards" element={<ResearcherAwards />} />
+      <Route path="/scholarship-awards-2022" element={<ScholarshipAndAwards />} />
+      <Route path="/pera-premier-championship" element={<PeraChampionship />} />
 
 
 
