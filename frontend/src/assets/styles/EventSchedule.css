@@ -1,12 +1,14 @@
 .event-schedule-page {
-  padding: 50px 290px;
+  padding: 30px 40px;
   font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 .event-schedule-page h1 {
   text-align: center;
   margin-bottom: 30px;
   color: #333;
+  font-size: 2.2rem;
 }
 
 .table-wrapper {
@@ -19,6 +21,7 @@
   margin: auto;
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 600px; /* Ensures table scrolls on smaller screens */
 }
 
 .event-table th,
@@ -26,6 +29,7 @@
   padding: 12px 16px;
   border: 1px solid #ddd;
   text-align: left;
+  font-size: 1rem;
 }
 
 .event-table th {
@@ -45,4 +49,47 @@
 
 .event-table a:hover {
   text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (min-width: 1200px) {
+  .event-schedule-page {
+    padding: 50px 290px;
+  }
+}
+
+@media (max-width: 768px) {
+  .event-schedule-page {
+    padding: 30px 20px;
+  }
+
+  .event-schedule-page h1 {
+    font-size: 2rem;
+  }
+
+  .event-table th,
+  .event-table td {
+    padding: 10px 12px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-schedule-page {
+    padding: 20px 15px;
+  }
+
+  .event-schedule-page h1 {
+    font-size: 1.75rem;
+  }
+
+  .event-table th,
+  .event-table td {
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+
+  .event-table {
+    min-width: 100%; /* Enables smooth horizontal scroll */
+  }
 }

@@ -44,6 +44,47 @@ const AboutUs = () => {
       name: "Dr. Ravi Joshi",
       designation: "Executive Member",
     },
+    
+
+    
+
+
+
+    {
+      src: "/assets/001.jpg",
+      name: "Dr. A. B. Patil",
+      designation: "President",
+    },
+    {
+      src: "/assets/002-copy.jpg",
+      name: "Prof. C. D. Kale",
+      designation: "Vice President",
+    },
+    {
+      src: "/assets/3-1.jpg",
+      name: "Mr. E. F. Rao",
+      designation: "Treasurer",
+    },
+    {
+      src: "/assets/Anil-Kashyap.jpg",
+      name: "Dr. Anil Kashyap",
+      designation: "Executive Member",
+    },
+    {
+      src: "/assets/Chitnis.jpg",
+      name: "Prof. Chitnis",
+      designation: "Executive Member",
+    },
+    {
+      src: "/assets/dr-prabhaat-ranjan.jpg",
+      name: "Dr. Prabhaat Ranjan",
+      designation: "Executive Member",
+    },
+    {
+      src: "/assets/Dr-Ravi-Joshi.jpg",
+      name: "Dr. Ravi Joshi",
+      designation: "Executive Member",
+    },
   ];
 
   const settings = {
@@ -90,9 +131,16 @@ const AboutUs = () => {
                   <p>{bearer.designation}</p>
                 </div>
               </div>
+
             </div>
+
           ))}
         </Slider>
+        {/* See More Button */}
+        <div style={{ textAlign: "center", marginTop: "20px" }}>
+          <a href="/office-bearers" className="see-more-btn">See More</a>
+        </div>
+
       </div>
 
       {/* Modal */}

@@ -145,3 +145,8 @@
     padding: 10px 15px;
   }
 }
+.scrollable-menu {
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
