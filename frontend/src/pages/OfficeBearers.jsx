@@ -3,13 +3,24 @@ import "../assets/styles/OfficeBearers.css";
 
 const officeBearers = [
   {
-    src: "/assets/001.jpg",
-   
+    src: "/assets/Dr.-Karad.jpg"
+  },
+   {
+    src: "/assets/Mr.-Baharat-Agarwa.jpg"
+  },
+  {
+    src: "/assets/rahul_karad.jpg",
+    
   },
   {
     src: "/assets/002-copy.jpg",
     
   },
+   {
+    src: "/assets/Dr-Ravi-Joshi.jpg",
+    
+  },
+  
   {
     src: "/assets/3-1.jpg",
   
@@ -26,10 +37,7 @@ const officeBearers = [
     src: "/assets/dr-prabhaat-ranjan.jpg",
    
   },
-  {
-    src: "/assets/Dr-Ravi-Joshi.jpg",
-    
-  },
+
 
 
  {
@@ -57,9 +65,6 @@ const officeBearers = [
     src: "/assets/e-b-khedkar.jpg",
   },
 
-
-
-
    {
     src: "/assets/pera-1.png",
 
@@ -71,10 +76,11 @@ const officeBearers = [
     src: "/assets/prof.-PAWAR.jpg",
    
   },
-  {
-    src: "/assets/rahul_karad.jpg",
-    
+    {
+    src: "/assets/001.jpg",
+   
   },
+  
   {
     src: "/assets/Sanjay_Padode_EDITED.jpg",
   },
@@ -85,8 +91,6 @@ const officeBearers = [
     src: "/assets/WhatsApp_Image_2021-06-24_at_19.35.00.jpeg",
   },
 ];
-
-
 
 
 const OfficeBearers = () => {
