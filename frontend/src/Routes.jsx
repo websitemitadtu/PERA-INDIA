@@ -46,6 +46,9 @@ import Savitribai_PhuleAward from './pages/Savitribai_PhuleAward.jsx';
 import ScholarshipAndAwards from './pages/ScholarshipAndAwards';
 
 import PeraChampionship from './pages/PeraChampionship';
+import TermsAndConditions from './pages/TermsAndConditions';
+
+
 
 
 const AppRoutes = () => {
@@ -99,7 +102,7 @@ const AppRoutes = () => {
       <Route path="/scholarship-awards-2022" element={<ScholarshipAndAwards />} />
       <Route path="/pera-premier-championship" element={<PeraChampionship />} />
 
-
+      <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
 
 
 
