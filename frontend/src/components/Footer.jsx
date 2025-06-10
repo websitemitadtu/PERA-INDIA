@@ -100,7 +100,6 @@ const Footer = () => {
         </div>
       </div>
 
-
       <div className="footer-bottom">
         <div className="footer-follow">
           <h3 style={{color: "#ffffff"}}>Follow Us</h3>
@@ -116,17 +115,18 @@ const Footer = () => {
         </div>
 
         <div className="bottom-links">
-          <Link to="/terms">Terms & Conditions </Link>
+          <a href="/terms-and-conditions">Terms & Conditions</a>
           <Link to="/privacy">Privacy Policy</Link>
           <Link to="/sitemap">Sitemap</Link>
         </div>
-        <div className='copyright'>&copy; 2021 Preeminent Education and Research Association</div>
+        <div className='copyright'>&copy; 2025 Preeminent Education and Research Association | Developed by Website Department</div>
       </div>
     </footer>
 
-
-
   );
 };
+
+
+
 
 export default Footer;

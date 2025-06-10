@@ -137,9 +137,9 @@ const AboutUs = () => {
           ))}
         </Slider>
         {/* See More Button */}
-        <div style={{ textAlign: "center", marginTop: "20px" }}>
+        {/* <div style={{ textAlign: "center", marginTop: "20px" }}>
           <a href="/office-bearers" className="see-more-btn">See More</a>
-        </div>
+        </div> */}
 
       </div>
 

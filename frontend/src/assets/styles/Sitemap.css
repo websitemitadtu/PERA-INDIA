@@ -1,0 +1,37 @@
+.sitemap-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  background: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sitemap-section {
+  min-width: 200px;
+}
+
+.sitemap-section h4 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.sitemap-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sitemap-section li {
+  margin: 6px 0;
+}
+
+.sitemap-section a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+.sitemap-section a:hover {
+  text-decoration: underline;
+}
