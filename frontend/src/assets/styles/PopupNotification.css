@@ -1,0 +1,50 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-box {
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.popup-box h2 {
+  margin-top: 0;
+  color: #b30000;
+}
+
+.popup-box p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.popup-box .important {
+  background-color: #ffe6e6;
+  border-left: 5px solid #b30000;
+  padding: 10px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #b30000;
+  cursor: pointer;
+}
