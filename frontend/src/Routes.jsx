@@ -1,8 +1,5 @@
-// src/Routes.jsx
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-
-// Import all your page components here
 import Overview from './pages/Overview';
 import PresidentMessage from './pages/PresidentMessage';
 import VicePresidentMessage from './pages/VicePresidentMessage';
@@ -25,28 +22,26 @@ import EventSchedule from './pages/EventSchedule';
 import Rules from './pages/Rules';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-
 import Awards from './pages/TeacherAwards';
 import AwardDetail from './pages/AwardDetail';
 import MashelkarScholarshipDetail from './pages/MashelkarScholarshipDetail';
-
 import BhatkarScholarshipDetail from './pages/BhatkarScholarshipDetail';
 import PeraIgniteScholarshipDetail from './pages/PeraIgniteScholarshipDetail';
 import SwamiVivekanandAward from './pages/SwamiVivekanandAward';
 import SavitribaiPhuleAward from './pages/SavitribaiPhuleAward';
 import JrResearcherAward from './pages/JrResearcherAward';
 import SrResearcherAward from './pages/JrResearcherAward.jsx';
-
-
 import SirVishweshwaraiahAward from './pages/SirVishweshwaraiahAward';
 import Jr_ResearcherAward from './pages/Jr_ResearcherAward';
 import SwamiVivekanandAwardReasercher from './pages/SwamiVivekanandAward';
 import Savitribai_PhuleAward from './pages/Savitribai_PhuleAward.jsx';
-
 import ScholarshipAndAwards from './pages/ScholarshipAndAwards';
-
 import PeraChampionship from './pages/PeraChampionship';
 import TermsAndConditions from './pages/TermsAndConditions';
+
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import WhyPera from './pages/WhyPera';
+import MembershipGuidelines from './pages/MembershipGuidelines';
 
 
 
@@ -59,30 +54,23 @@ const AppRoutes = () => {
       <Route path="/president-message" element={<PresidentMessage />} />
       <Route path="/vice-president-message" element={<VicePresidentMessage />} />
       <Route path="/office-bearers" element={<OfficeBearers />} />
-
       <Route path="/why-pera-cet" element={<WhyPeraCet />} />
       <Route path="/guidelines" element={<Guidelines />} />
       <Route path="/application-form" element={<ApplicationForm />} />
       <Route path="/schedule" element={<Schedule />} />
       <Route path="/result" element={<Result />} />
-
       <Route path="/scholarships" element={<Scholarships />} />
       <Route path="/teacher-awards" element={<TeacherAwards />} />
       <Route path="/researcher-awards" element={<ResearcherAwards />} />
-
       <Route path="/scholarships/:slug" element={<ScholarshipDetail />} />
-
       <Route path="/event-schedule" element={<EventSchedule />} />
       <Route path="/rules" element={<Rules />} />
-
       <Route path="/contact" element={<Contact />} />
-
       <Route path="/" element={<NewsAndBlogs />} />
       <Route path="/all-news" element={<AllNews />} />
       <Route path="/all-blogs" element={<AllBlogs />} />
       <Route path="/news/:id" element={<NewsDetail />} />
       <Route path="/blog/:id" element={<BlogDetail />} />
-
       <Route path="/awards" element={<Awards />} />
       <Route path="/awards_details" element={<AwardDetail />} />
       <Route path="/scholarships/raghunath-mashelkar-scholarship" element={<MashelkarScholarshipDetail />} />
@@ -92,8 +80,6 @@ const AppRoutes = () => {
       <Route path="/awards/savitribai-phule-teacher-award" element={<SavitribaiPhuleAward />} />
       <Route path="/awards/jr-researcher-award" element={<JrResearcherAward />} />
       <Route path="/awards/sr-researcher-award" element={<SrResearcherAward />} />
-
-
       <Route path="/awards/sr-researcher-awards" element={<SirVishweshwaraiahAward />} />
       <Route path="/awards/jr-researcher-awards" element={<Jr_ResearcherAward />} />
       <Route path="/awards/swami-vivekanand-researcher-awards" element={<SwamiVivekanandAwardReasercher />} />
@@ -101,11 +87,10 @@ const AppRoutes = () => {
       <Route path="/awards" element={<ResearcherAwards />} />
       <Route path="/scholarship-awards-2022" element={<ScholarshipAndAwards />} />
       <Route path="/pera-premier-championship" element={<PeraChampionship />} />
-
       <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-
-
-
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/why-pera" element={<WhyPera />} />
+      <Route path="/membership-guidelines" element={<MembershipGuidelines />} />
     </Routes>
   );
 };

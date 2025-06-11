@@ -1,11 +1,9 @@
 import React from "react";
-import cetImg from "../assets/why_pera.jpg"; // Replace with your actual image path
-import "../assets/styles/PresidentMessage.css"; // Reuse your styles
-
+import cetImg from "../assets/why_pera.jpg";
+import "../assets/styles/WhyPera.css"; 
 const WhyPeraCET = () => {
   return (
     <>
-      {/* Full-width responsive image */}
       <div className="office-image-wrapper">
         <img
           src={cetImg}
@@ -13,11 +11,8 @@ const WhyPeraCET = () => {
           className="office-image-full"
         />
       </div>
-
-      {/* Content section */}
       <div className="president-container">
         <h2 className="section-title">Why PERA CET</h2>
-
         <div className="president-card">
           <p style={{ textAlign: "justify", lineHeight: "1.7" }}>
             “Preeminent Education and Research Association, Pune (PERA) is an esteemed

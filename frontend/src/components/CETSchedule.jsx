@@ -7,25 +7,25 @@ const schedule = [
     title: "Start Date",
     description: "01st Jan 2025",
     bgColor: "#1F2652",
-    link: "https://peraindia.in/apply",
+    link: "https://peraindia.in/pera_form_round_two/stud_reg.php",
   },
   {
     title: "Last Date",
     description: "18th May 2025",
     bgColor: "#333B62",
-    link: "https://peraindia.in/apply",
+    link: "https://peraindia.in/pera_form_round_two/stud_reg.php",
   },
   {
     title: "Examination Dates",
     description: "22nd, 23rd & 24th May 2025",
     bgColor: "#1F2652",
-    link: "https://peraindia.in/apply",
+    link: "https://pera-india-sepia.vercel.app/schedule",
   },
   {
     title: "Result Date",
     description: "31st May 2025",
     bgColor: "#333B62",
-    link: "https://peraindia.in/apply",
+    link: "https://pera-india-sepia.vercel.app/result",
   },
 ];
 

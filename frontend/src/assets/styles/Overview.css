@@ -2,6 +2,7 @@
 .overview-container {
   padding: 1rem;
   font-family: Arial, sans-serif;
+  background-color: #ffffff;
 }
 
 /* Responsive image styling */
@@ -12,58 +13,75 @@
   display: block;
   border-radius: 8px;
   margin-bottom: 2rem;
+  object-fit: cover;
+  max-height: 400px;
 }
 
 /* Card styling */
 .objectives-card {
   max-width: 1000px;
+  width: 90%;
   margin: 0 auto;
   padding: 2rem;
   border-radius: 12px;
   background-color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
+/* Card title */
 .objectives-card h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   color: #1D2550;
+  border-bottom: 2px solid #1D2550;
+  padding-bottom: 8px;
 }
 
+/* Heading for Objectives list */
+.heading {
+  color: #1D2550;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
 .objectives-card p {
   font-size: 1rem;
   margin-bottom: 1rem;
   color: #333;
-  line-height: 1.5;
+  line-height: 1.6;
+  text-align: justify;
 }
 
+/* List styles */
 .objectives-card ul {
   list-style-type: disc;
   padding-left: 1.5rem;
   color: #444;
+  margin-top: 0.5rem;
 }
 
 .objectives-card li {
   margin-bottom: 0.75rem;
   line-height: 1.6;
+  font-size: 1rem;
 }
 
-/* Responsive typography */
+/* Responsive Design */
 @media (max-width: 600px) {
   .objectives-card {
     padding: 1rem;
   }
 
-  .objectives-card h2 {
-    font-size: 1.5rem;
+  .objectives-card h2,
+  .heading {
+    font-size: 1.4rem;
   }
 
   .objectives-card p,
   .objectives-card li {
     font-size: 0.95rem;
   }
-}
-
-.heading{
-  color:#1D2550 ;
 }

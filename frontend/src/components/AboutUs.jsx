@@ -107,7 +107,7 @@ const AboutUs = () => {
       {/* About Us Top Card */}
       <div className="about-card">
         <div className="about-left">
-          <h2>About PERA</h2>
+          <h2 >About PERA</h2>
           <p>
             Preeminent Education and Research Association (PERA) is an esteem federation of the state private universities of Maharashtra. The federation has been constituted to promote quality education in all the domains of professional programmes.
           </p>
