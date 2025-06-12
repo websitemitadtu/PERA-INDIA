@@ -9,12 +9,11 @@ const footerLinks = [
     category: 'Quick Links',
     links: [
       { name: 'Objectives of PERA', to: '/overview' },
-      { name: 'Academics', to: '/academics' },
       { name: 'PERA CET 2025 Schedule', to: '/schedule' },
       { name: 'PERA CET Result', to: '/result' },
       { name: 'Why PERA', to: '/why-pera' },
       { name: 'Contact Us', to: '/contact' },
-      { name: 'NaConNEP', to: '/naconnep' },
+      { name: 'NaConNEP', to: '/conference' },
       { name: 'PERA Membership', to: '/membership' },
       { name: 'Why PERA CET', to: '/why-pera-cet' },
       { name: 'Guidelines to Become Member of PERA', to: '/membership-guidelines' },
@@ -67,7 +66,6 @@ const Footer = () => {
   };
 
   return (
-
     <footer className="footer">
       <div className="footer-card">
         <div className="footer-top-row">
@@ -84,7 +82,6 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-
           <div className="footer-section">
             <h3 style={{ color: "#ffffff" }}>{footerLinks[1].category}</h3>
             <div className="academic-columns">

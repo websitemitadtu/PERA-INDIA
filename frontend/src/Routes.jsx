@@ -43,6 +43,8 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import WhyPera from './pages/WhyPera';
 import MembershipGuidelines from './pages/MembershipGuidelines';
 
+import Conference from './pages/Conference';
+
 
 
 
@@ -91,6 +93,7 @@ const AppRoutes = () => {
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/why-pera" element={<WhyPera />} />
       <Route path="/membership-guidelines" element={<MembershipGuidelines />} />
+      <Route path="/conference" element={<Conference />} />
     </Routes>
   );
 };
